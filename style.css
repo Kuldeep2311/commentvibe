@@ -1,0 +1,90 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 20px;
+	display: flex; /* Allow stacking elements vertically */
+	flex-direction: column; /* Stack elements top to bottom */
+	min-height: 100vh; /* Set minimum body height for full viewport */
+  }
+  
+  header,
+  footer {
+	background-color: #706767;
+	padding: 50px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+  }
+  
+  header img {
+	height: 150px;
+  }
+  
+  h1 {
+	text-align: center;
+	margin: 0;
+  }
+  
+  main {
+	margin-top: 20px; /* Spacing after content container */
+  }
+  
+  p {
+	text-align: left;
+	color: #050000;
+  }
+  
+  textarea {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+  }
+  
+  button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+  
+  #result {
+	font-size: 18px;
+	margin-top: 20px;
+	text-align: center;
+  }
+  
+  .positive {
+	color: green;
+  }
+  
+  .negative {
+	color: red;
+  }
+  
+  .neutral {
+	color: #aaa;
+  }
+  
+  .content-container {
+	display: flex; /* Allow children to sit side-by-side */
+  }
+  
+  .text-container {
+	padding: 10px; /* Add some padding for readability */
+	flex: 2; /* Text container takes up twice the space */
+  }
+  
+  .video-container {
+	margin-right: 20px; /* Spacing between video and text */
+	width
+  }

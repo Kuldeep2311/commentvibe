@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CommentVibe - Analyze Your Comment!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="Commentvibe.jpg" alt="CommentVibe Logo">
+    <h1>CommentVibe</h1>
+  </header>
+  <section class="content-container">
+    <div class="video-container">
+      <video width="300" height="200" autoplay loop muted>
+        <source src="Commentvibevd.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="text-container">
+      <p>Our project develops a user-friendly website that analyzes social media comments' sentiment using machine learning and text processing techniques. Users can input a social media link and receive a breakdown of audience sentiment, enabling them to understand and respond to public opinions effectively. This technology benefits businesses and individuals by informing decisions, managing online presence, and enhancing communication. Our goal is to improve online experiences by providing valuable sentiment analysis insights.</p>
+    </div>
+  </section>
+  <main>
+    <p>Analyze the sentiment of your comment!</p>
+    <textarea id="commentInput" placeholder="Enter your comment here..."></textarea>
+    <button id="analyzeButton">Analyze</button>
+    <div id="result"></div>
+  </main>
+  <footer>
+    <p>&copy; 2024 CommentVibe. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
